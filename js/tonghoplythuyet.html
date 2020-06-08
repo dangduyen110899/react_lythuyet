@@ -1,0 +1,83 @@
+1. Selector
+        item:nth-child()
+        item:not(:last-child)
+
+2 Phần DOM
+        document.getElementsByTagName('a'); theo element
+        document.getElementById: id laf duy nhat
+        document.querySelector('p a //css')  bản chất css: có query nào trùngùng selector ,selector: 1, selectorAll: nhiều
+        document.style.color : thay đổi css
+        document.getAttribute('href//thuộc tính'), backgroundColor => adtribute của js khác background-color: CSS
+
+3. Bom
+        location: mô tả url
+        navigation: trình duyệt
+        history:
+
+4 function
+        -nomal-function: IE5-2011
+        -arrow-function:
+            const name = ()=>{} // không có tham số thì để ()
+
+            const sum = (a,b) =>  a + b//ko cần return khi ngắn
+            sum(3,4)
+
+            const loichao = mess => console.log(mess) // 1 tham số không cần ()
+            loichao("hello")
+
+5 variable : const, let, var
+        Scope:
+            var : function ;
+            let, const: block {...}
+            const: ko thay đổi được địa chỉ, thay đổi đc giá trị (đối tượng, mảng..)
+
+6 Hàm setTimeout,setInterval
+        sau 3s hàm đc chạy 1 lần
+        setTimeout(function(){
+            alert('ham da dc chay')
+        },3000)
+
+        vòng lặp vô hạn
+        let i = 1
+        setInterval(function(){
+            console.log(i)
+            i++
+        },500)
+
+        cách 1
+        let i = 1
+        const myLoop = setInterval(function(){
+            console.log(i)
+            i++
+            if(i == 10)
+                clearInterval(myLoop)
+        },500)
+
+        cáh 2
+        const myLoop = setInterval(function(){
+            console.log(i)
+            i++
+        },500)
+        setTimeout(function(){
+        clearInterval(myLoop)
+        },2000)
+7     Position:
+0.z-index : toa do z
+1. static:
+2. fixed: co dinh
+3.relative: cha
+4: absolute: con
+5: sticky: fixed + relative
+neen dung top-left
+=>ung dung lam menu phan cap
+
+8.   Array object
+truy van mang: a[0]
+lặp mảng: foreach,for
+
+9. Object in object: 
+cart[id] : lấy value id làm key object
+hai cách truy vấn object: product.total product['total']
+lặp object : for-in
+string template `` string trên nhiều dòng: nhúng html vào js
+ -->
