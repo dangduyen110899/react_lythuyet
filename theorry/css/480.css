@@ -1,0 +1,30 @@
+.banner h1 {
+    font-size: 2.5em;
+}
+
+.content .news .list .item,
+.content .special .list .item {
+    text-align: center;
+}
+
+.content .news .item a,
+.content .special .item a {
+    width: 100%;
+    padding: 0;
+}
+
+.content .users .list {
+    justify-content: center;
+}
+
+.content .users .list .item {
+    width: 90%;
+}
+
+.content .users .list .item:nth-child(2) {
+    margin-top: 20px;
+}
+
+.special .list .item .info .title {
+    text-align: center;
+}

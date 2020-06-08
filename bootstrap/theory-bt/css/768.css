@@ -1,0 +1,20 @@
+h1 {
+    font-size: 2.5em;
+}
+
+.content .footer .container {
+    padding-top: 2em;
+}
+
+.content .footer .flex {
+    flex-direction: column-reverse;
+}
+
+.content .footer .flex .left {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.content .footer .right ul.icons {
+    text-align: center;
+}

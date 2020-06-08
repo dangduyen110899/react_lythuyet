@@ -1,0 +1,51 @@
+.background {
+    display: none;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.content .bg-mobile {
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content .menu .right a {
+    display: none;
+}
+
+.content .menu .right span {
+    display: inline-block;
+    cursor: pointer;
+    /* co the click vao dc */
+}
+
+.content .news .list .item:nth-child(1)>div {
+    width: 100%;
+}
+
+.content .news .list .item:nth-child(2)>div {
+    width: 100%;
+    margin-left: 0;
+}
+
+.content .news .list .item:nth-child(3)>div {
+    width: 100%;
+    margin-left: 0;
+}
+
+.content .news .list .item:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 40px;
+}
+
+.content .news .list .item:not(:first-child) {
+    margin-top: 50px;
+}
+
+
+
+

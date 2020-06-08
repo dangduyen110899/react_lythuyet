@@ -1,0 +1,74 @@
+.background {
+    display: none;
+}
+
+.content .bg-mobile {
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content .menu .right a {
+    display: none;
+}
+
+.content .menu .right span {
+    display: inline-block;
+    cursor: pointer;
+    /* co the click vao dc */
+}
+
+.content .news .item {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content .news .list .item:nth-child(1)>div {
+    width: 100%;
+}
+
+.content .news .list .item:nth-child(2)>div {
+    width: 100%;
+    margin-left: 0;
+}
+
+.content .news .list .item:nth-child(3)>div {
+    width: 100%;
+    margin-left: 0;
+}
+
+.content .news .list .item:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 40px;
+}
+
+.content .news .list .item:not(:first-child) {
+    margin-top: 50px;
+}
+
+/* resposive users */
+
+.content .users .list {
+    justify-content: space-between;
+}
+
+.content .users .list .item {
+    width: 47%;
+}
+
+.content .users .list .item:nth-child(3),
+.content .users .list .item:nth-child(4) {
+    margin-top: 32px;
+}
+
+.content .special .list .item {
+    width: 100%;
+}
+
+.content .special .list .item:nth-child(2) {
+    margin-top: 32px;
+}
+
+
